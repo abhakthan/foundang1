@@ -1,0 +1,29 @@
+{
+  "name": "foundang1",
+  "version": "1.0.0",
+  "description": "Angular components with Foundation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "dependencies": {
+    "angular": "^1.5.6"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "protractor": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhakthan/foundang1.git"
+  },
+  "author": "Ajay Bhakthan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhakthan/foundang1/issues"
+  },
+  "homepage": "https://github.com/abhakthan/foundang1#readme"
+}
