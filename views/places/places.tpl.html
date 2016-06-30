@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="large-12 columns">
+    <div class="secondary">
+      <div class="row" ng-repeat="place in $ctrl.places track by place.id">
+        <div class="medium-2 columns"><a ng-link="['PlaceDetails', {id: place.id}]"><strong>{{ place.title }}</strong></a></div>
+        <div class="medium-6 columns">{{ place.desc }}</div>
+        <div class="medium-4 columns medium-push-0"><img ng-src="{{place.image}}"></div>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
